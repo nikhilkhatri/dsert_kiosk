@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DSERT_Upload content</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jQuery.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+	<div>
+		
+		<div id='sel_window'>
+		<h3>Select root folder</h3>
+		{% for folder in l1_folders %}
+			<div class = 'folder_op' id = '{{folder}}' onclick="send_root('{{folder}}')">{{folder}}</div>
+		{% endfor %}
+		</div>
+	</div>
+</body>
+</html>

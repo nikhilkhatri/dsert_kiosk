@@ -1,0 +1,37 @@
+*{
+	font-family: sans-serif;
+}
+
+body{
+	background-color: #fff;
+	padding: 0px;
+	margin: 0px;
+}
+
+#sel_window {
+	width: 50%;
+	position: relative;
+	left: 25%;
+	padding: 30px;
+	padding-top: 5px;
+	box-sizing: border-box;
+	background-color: #666;
+	border-radius: 10px;
+}
+
+.folder_op{
+	padding: 10px;
+	box-sizing: border-box;
+	border-bottom: solid 1px orange;
+	color: white;
+	font-size: 15pt;
+}
+
+.folder_op:hover{
+	font-size: 17pt;
+}
+
+#sel_window > h3{
+	color: white;
+	font-size: 30pt;
+}
